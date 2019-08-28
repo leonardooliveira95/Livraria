@@ -1,0 +1,39 @@
+.capa-livro {
+  width: 250px; }
+
+.container-informacoes-livro {
+  margin-left: 15px; }
+
+.card-informacoes-livro {
+  margin-top: 10px;
+  width: 250px; }
+
+.container-sinopse {
+  margin-top: 15px; }
+
+.sinopse {
+  white-space: pre-line; }
+
+.sinopse-fechada {
+  max-height: 140px;
+  overflow: hidden; }
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 22px; }
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em; }
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+  cursor: pointer;
+  color: #e3cf7a; }
+
+.preco-livro > span {
+  margin-right: 10px; }

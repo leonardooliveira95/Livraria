@@ -1,0 +1,6 @@
+#navbar {
+  background: linear-gradient(90deg, #344657 0%, #1f70b2 35%, #366f9e 100%); }
+  #navbar .navbar-brand {
+    margin-right: 0; }
+    #navbar .navbar-brand img {
+      width: 70%; }

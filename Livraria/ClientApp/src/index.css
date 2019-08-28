@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dosis&display=swap");
+section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: linear-gradient(66deg, #e2e2e2, #EAF0F6); }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin-bottom: 120px;
+  font-family: 'Livvic', sans-serif; }
+
+.fa {
+  margin-right: 5px; }
+
+.container {
+  background-color: white;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 3px 2px 4px 0px #888;
+  min-height: 780px; }

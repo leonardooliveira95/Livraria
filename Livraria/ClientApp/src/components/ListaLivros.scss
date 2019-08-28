@@ -1,0 +1,25 @@
+﻿.card {
+    width: 250px;
+    margin-top:15px;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    flex-basis: auto !important;
+}
+
+.card-deck{
+    justify-content:center;
+}
+
+@media only screen and (max-width: 768px){
+    .card-deck {
+        align-items:center;
+    }
+}
+
+.card-footer {
+    display:flex;
+    
+    > a {
+        margin-right:10px;
+    }
+}
